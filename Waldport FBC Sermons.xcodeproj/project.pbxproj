@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754B53111EC8DF150090B010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B53101EC8DF150090B010 /* AppDelegate.swift */; };
+		754B53141EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 754B53121EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodeld */; };
+		754B53161EC8DF150090B010 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B53151EC8DF150090B010 /* MasterViewController.swift */; };
+		754B53181EC8DF150090B010 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B53171EC8DF150090B010 /* DetailViewController.swift */; };
+		754B531B1EC8DF150090B010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754B53191EC8DF150090B010 /* Main.storyboard */; };
+		754B531D1EC8DF150090B010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754B531C1EC8DF150090B010 /* Assets.xcassets */; };
+		754B53201EC8DF150090B010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754B531E1EC8DF150090B010 /* LaunchScreen.storyboard */; };
+		754B532B1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B532A1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift */; };
+		754B53361EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B53351EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		754B53271EC8DF160090B010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 754B53051EC8DF150090B010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 754B530C1EC8DF150090B010;
+			remoteInfo = "Waldport FBC Sermons";
+		};
+		754B53321EC8DF160090B010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 754B53051EC8DF150090B010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 754B530C1EC8DF150090B010;
+			remoteInfo = "Waldport FBC Sermons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		754B530D1EC8DF150090B010 /* Waldport FBC Sermons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waldport FBC Sermons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754B53101EC8DF150090B010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		754B53131EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waldport_FBC_Sermons.xcdatamodel; sourceTree = "<group>"; };
+		754B53151EC8DF150090B010 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		754B53171EC8DF150090B010 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		754B531A1EC8DF150090B010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		754B531C1EC8DF150090B010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		754B531F1EC8DF150090B010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		754B53211EC8DF150090B010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754B53261EC8DF160090B010 /* Waldport FBC SermonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waldport FBC SermonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754B532A1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waldport_FBC_SermonsTests.swift; sourceTree = "<group>"; };
+		754B532C1EC8DF160090B010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754B53311EC8DF160090B010 /* Waldport FBC SermonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waldport FBC SermonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754B53351EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waldport_FBC_SermonsUITests.swift; sourceTree = "<group>"; };
+		754B53371EC8DF160090B010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		754B530A1EC8DF150090B010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B53231EC8DF160090B010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B532E1EC8DF160090B010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754B53041EC8DF150090B010 = {
+			isa = PBXGroup;
+			children = (
+				754B530F1EC8DF150090B010 /* Waldport FBC Sermons */,
+				754B53291EC8DF160090B010 /* Waldport FBC SermonsTests */,
+				754B53341EC8DF160090B010 /* Waldport FBC SermonsUITests */,
+				754B530E1EC8DF150090B010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		754B530E1EC8DF150090B010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754B530D1EC8DF150090B010 /* Waldport FBC Sermons.app */,
+				754B53261EC8DF160090B010 /* Waldport FBC SermonsTests.xctest */,
+				754B53311EC8DF160090B010 /* Waldport FBC SermonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		754B530F1EC8DF150090B010 /* Waldport FBC Sermons */ = {
+			isa = PBXGroup;
+			children = (
+				754B53101EC8DF150090B010 /* AppDelegate.swift */,
+				754B53151EC8DF150090B010 /* MasterViewController.swift */,
+				754B53171EC8DF150090B010 /* DetailViewController.swift */,
+				754B53191EC8DF150090B010 /* Main.storyboard */,
+				754B531C1EC8DF150090B010 /* Assets.xcassets */,
+				754B531E1EC8DF150090B010 /* LaunchScreen.storyboard */,
+				754B53211EC8DF150090B010 /* Info.plist */,
+				754B53121EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodeld */,
+			);
+			path = "Waldport FBC Sermons";
+			sourceTree = "<group>";
+		};
+		754B53291EC8DF160090B010 /* Waldport FBC SermonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				754B532A1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift */,
+				754B532C1EC8DF160090B010 /* Info.plist */,
+			);
+			path = "Waldport FBC SermonsTests";
+			sourceTree = "<group>";
+		};
+		754B53341EC8DF160090B010 /* Waldport FBC SermonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				754B53351EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift */,
+				754B53371EC8DF160090B010 /* Info.plist */,
+			);
+			path = "Waldport FBC SermonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754B530C1EC8DF150090B010 /* Waldport FBC Sermons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754B533A1EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC Sermons" */;
+			buildPhases = (
+				754B53091EC8DF150090B010 /* Sources */,
+				754B530A1EC8DF150090B010 /* Frameworks */,
+				754B530B1EC8DF150090B010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waldport FBC Sermons";
+			productName = "Waldport FBC Sermons";
+			productReference = 754B530D1EC8DF150090B010 /* Waldport FBC Sermons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		754B53251EC8DF160090B010 /* Waldport FBC SermonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754B533D1EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsTests" */;
+			buildPhases = (
+				754B53221EC8DF160090B010 /* Sources */,
+				754B53231EC8DF160090B010 /* Frameworks */,
+				754B53241EC8DF160090B010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				754B53281EC8DF160090B010 /* PBXTargetDependency */,
+			);
+			name = "Waldport FBC SermonsTests";
+			productName = "Waldport FBC SermonsTests";
+			productReference = 754B53261EC8DF160090B010 /* Waldport FBC SermonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		754B53301EC8DF160090B010 /* Waldport FBC SermonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754B53401EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsUITests" */;
+			buildPhases = (
+				754B532D1EC8DF160090B010 /* Sources */,
+				754B532E1EC8DF160090B010 /* Frameworks */,
+				754B532F1EC8DF160090B010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				754B53331EC8DF160090B010 /* PBXTargetDependency */,
+			);
+			name = "Waldport FBC SermonsUITests";
+			productName = "Waldport FBC SermonsUITests";
+			productReference = 754B53311EC8DF160090B010 /* Waldport FBC SermonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		754B53051EC8DF150090B010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Waldport FBC";
+				TargetAttributes = {
+					754B530C1EC8DF150090B010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+					};
+					754B53251EC8DF160090B010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 754B530C1EC8DF150090B010;
+					};
+					754B53301EC8DF160090B010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 754B530C1EC8DF150090B010;
+					};
+				};
+			};
+			buildConfigurationList = 754B53081EC8DF150090B010 /* Build configuration list for PBXProject "Waldport FBC Sermons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754B53041EC8DF150090B010;
+			productRefGroup = 754B530E1EC8DF150090B010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				754B530C1EC8DF150090B010 /* Waldport FBC Sermons */,
+				754B53251EC8DF160090B010 /* Waldport FBC SermonsTests */,
+				754B53301EC8DF160090B010 /* Waldport FBC SermonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754B530B1EC8DF150090B010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754B53201EC8DF150090B010 /* LaunchScreen.storyboard in Resources */,
+				754B531D1EC8DF150090B010 /* Assets.xcassets in Resources */,
+				754B531B1EC8DF150090B010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B53241EC8DF160090B010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B532F1EC8DF160090B010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754B53091EC8DF150090B010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754B53141EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodeld in Sources */,
+				754B53111EC8DF150090B010 /* AppDelegate.swift in Sources */,
+				754B53161EC8DF150090B010 /* MasterViewController.swift in Sources */,
+				754B53181EC8DF150090B010 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B53221EC8DF160090B010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754B532B1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B532D1EC8DF160090B010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754B53361EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		754B53281EC8DF160090B010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 754B530C1EC8DF150090B010 /* Waldport FBC Sermons */;
+			targetProxy = 754B53271EC8DF160090B010 /* PBXContainerItemProxy */;
+		};
+		754B53331EC8DF160090B010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 754B530C1EC8DF150090B010 /* Waldport FBC Sermons */;
+			targetProxy = 754B53321EC8DF160090B010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		754B53191EC8DF150090B010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				754B531A1EC8DF150090B010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		754B531E1EC8DF150090B010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				754B531F1EC8DF150090B010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		754B53381EC8DF160090B010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		754B53391EC8DF160090B010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754B533B1EC8DF160090B010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC Sermons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-Sermons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		754B533C1EC8DF160090B010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC Sermons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-Sermons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		754B533E1EC8DF160090B010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC SermonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-SermonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waldport FBC Sermons.app/Waldport FBC Sermons";
+			};
+			name = Debug;
+		};
+		754B533F1EC8DF160090B010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC SermonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-SermonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waldport FBC Sermons.app/Waldport FBC Sermons";
+			};
+			name = Release;
+		};
+		754B53411EC8DF160090B010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC SermonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-SermonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Waldport FBC Sermons";
+			};
+			name = Debug;
+		};
+		754B53421EC8DF160090B010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Waldport FBC SermonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WFBC.Waldport-FBC-SermonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Waldport FBC Sermons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754B53081EC8DF150090B010 /* Build configuration list for PBXProject "Waldport FBC Sermons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754B53381EC8DF160090B010 /* Debug */,
+				754B53391EC8DF160090B010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754B533A1EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC Sermons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754B533B1EC8DF160090B010 /* Debug */,
+				754B533C1EC8DF160090B010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		754B533D1EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754B533E1EC8DF160090B010 /* Debug */,
+				754B533F1EC8DF160090B010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		754B53401EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754B53411EC8DF160090B010 /* Debug */,
+				754B53421EC8DF160090B010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		754B53121EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				754B53131EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodel */,
+			);
+			currentVersion = 754B53131EC8DF150090B010 /* Waldport_FBC_Sermons.xcdatamodel */;
+			path = Waldport_FBC_Sermons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 754B53051EC8DF150090B010 /* Project object */;
+}
