@@ -7,15 +7,42 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 import CoreData
 
 class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
 
+
     var detailViewController: DetailViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
 
+    
+    var player:AVAudioPlayer = AVAudioPlayer()
+    
+    @IBAction func GetSermon(_ sender: UIButton) {
+        let videoURL = URL(string: "http://www.fbcwaldport.org/wp-content/uploads/sermons/2017/Shep30Edited.mp3")
+        let player = AVPlayer(url: videoURL!)
+        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.frame = self.view.bounds
+        self.view.layer.addSublayer(playerLayer)
+        player.play()
+    }
 
     override func viewDidLoad() {
+        
+        do
+        {
+            let audioPath = NSURL(string: "http://www.fbcwaldport.org/wp-content/uploads/sermons/2017/May%207%202017%20.mp3")
+            
+            try player = AVAudioPlayer(contentsOf: audioPath as URL!)
+            player.prepareToPlay()
+        }
+        catch
+        {
+            //ERROR
+        }
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         navigationItem.leftBarButtonItem = editButtonItem

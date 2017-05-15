@@ -16,6 +16,8 @@
 		754B53201EC8DF150090B010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754B531E1EC8DF150090B010 /* LaunchScreen.storyboard */; };
 		754B532B1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B532A1EC8DF160090B010 /* Waldport_FBC_SermonsTests.swift */; };
 		754B53361EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B53351EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift */; };
+		754B53501EC923980090B010 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754B534F1EC923980090B010 /* AVFoundation.framework */; };
+		754B53521EC9239C0090B010 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754B53511EC9239C0090B010 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		754B53311EC8DF160090B010 /* Waldport FBC SermonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waldport FBC SermonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		754B53351EC8DF160090B010 /* Waldport_FBC_SermonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waldport_FBC_SermonsUITests.swift; sourceTree = "<group>"; };
 		754B53371EC8DF160090B010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754B534F1EC923980090B010 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		754B53511EC9239C0090B010 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754B53521EC9239C0090B010 /* AVKit.framework in Frameworks */,
+				754B53501EC923980090B010 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				754B53291EC8DF160090B010 /* Waldport FBC SermonsTests */,
 				754B53341EC8DF160090B010 /* Waldport FBC SermonsUITests */,
 				754B530E1EC8DF150090B010 /* Products */,
+				754B534E1EC923970090B010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +136,15 @@
 				754B53371EC8DF160090B010 /* Info.plist */,
 			);
 			path = "Waldport FBC SermonsUITests";
+			sourceTree = "<group>";
+		};
+		754B534E1EC923970090B010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				754B53511EC9239C0090B010 /* AVKit.framework */,
+				754B534F1EC923980090B010 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -522,6 +538,7 @@
 				754B533C1EC8DF160090B010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754B533D1EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +547,7 @@
 				754B533F1EC8DF160090B010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754B53401EC8DF160090B010 /* Build configuration list for PBXNativeTarget "Waldport FBC SermonsUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +556,7 @@
 				754B53421EC8DF160090B010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
